@@ -87,7 +87,7 @@
     }
 }
 
-//环形进度条
+//环形进度条 均匀分布
 
 - (void)annularProgress:(CGContextRef)context{
     CGContextAddArc (context, 150, 400, 90, 0, M_PI* 2 , 0);
